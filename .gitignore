@@ -1,0 +1,14 @@
+# Build Directories
+debug/
+/target/
+
+# We let the dependent programs decide specific versions
+#
+# Just give them *hints* in the manifest files
+Cargo.lock
+
+# rustfmt back files incase I decide to set that up
+**/*.rs.bk
+
+# MSVC Windows builds of rustc generate these, which store debugging information
+*.pdb
