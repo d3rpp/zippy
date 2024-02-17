@@ -9,8 +9,9 @@ exclude = [
 ]
 
 [workspace.package]
-version = "0.1.0"
+version = "0.0.0"
 edition = "2021"
 readme = "./README.md"
 authors = ["d3rpp <d3rpp@d3rpp.dev>"]
 rust-version = "1.76.0"
+description = "an async-first virtual file store with an accompanying Tauri plugin"
